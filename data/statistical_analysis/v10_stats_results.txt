@@ -1,0 +1,75 @@
+======================================================================
+ v10 statistical patches — output for paper text
+======================================================================
+
+=== I3 · McNemar cluster-permutation (T6 AtomicOnly vs FullReval, tau=5) ===
+
+  N events    = 48
+  N clusters  = 16  (one per swapped-in ECM = phase * new_seed)
+  AtomicOnly:  31/48 = 64.6%
+  FullReval:   42/48 = 87.5%
+  Delta = +11 events (22.9 pp)
+
+  Cluster-permutation p (B=5000, two-sided) = 0.0182
+  -> The 11-event gap is significant under cluster-aware null.
+     (Compare: naive McNemar exact-binomial p = 0.0127.
+      Cluster-permutation gives a slightly tighter p-value because the
+      events are positively correlated within ECM, but the headline
+      conclusion is unchanged: AtomicOnly is statistically worse than
+      FullReval at tau=5.)
+
+  Per-cluster sign breakdown (16 clusters):
+    FullReval > Atomic in 9 clusters
+    Atomic = FullReval in 7 clusters
+    Atomic > FullReval in 0 clusters
+
+======================================================================
+=== I5 · §6 permutation test: dominant ECM rank by L2 distance ===
+
+  Phase    Dominant ECM        Atomic SR%   Mean L2   Rank
+  reach    seed=2024                86.7%     3.349    3 of 4
+
+  Permutation null over 16 ECMs (4 seeds * 4 phases):
+    Dominant cell (seed=2024 reach, 86.7% atomic SR) is rank 7
+    of 16 by mean pairwise L2 distance.
+    P(rank <= 7) under uniform null = 0.438 (one-sided)
+    -> dominant cell is NOT a distance-outlier; behavioral distance
+       fails to identify it under formal test.
+
+======================================================================
+=== Holm-Bonferroni on section 4 cross-seed-swap phase p-values ===
+
+  phase       p_raw     p_holm  decision (alpha=0.05)
+  reach      0.3850     1.0000  fail to reject
+  grasp      0.6160     1.0000  fail to reject
+  lift       0.7900     1.0000  fail to reject
+  place      1.0000     1.0000  fail to reject
+
+  All four p-values remain non-significant after Holm-Bonferroni.
+  This strengthens the population-mean null finding.
+
+======================================================================
+=== Mechanism (b) action smoothness + (c) trajectory length ===
+
+DATA STATUS: not computable from current rollout artifacts.
+
+  - states_t6_reach/*.npz files contain phase_end_obs (218-dim),
+    episode_seeds, and phase_end_step (a SCALAR).
+  - phase_end_step = 62 across ALL 16 npz files. This is a fixed
+    framework-level phase boundary, not per-episode trajectory
+    length. So (c) trajectory-length DISTRIBUTION cannot vary by
+    construction in this rollout protocol.
+  - Per-step action sequences NOT saved during the B-rollout.
+    Computing (b) action smoothness requires re-running the eval
+    with action logging enabled (one extra flag in
+    compose_paired_eval.py).
+
+PAPER POSITION:
+  -> §app:extdisc keeps (a) measured-and-refuted finding;
+     adds 1 sentence: (b) and (c) require additional per-step action
+     logging which was not enabled in the B-rollout. Left to future
+     work; deferred to v11 if Linux re-runs in time.
+
+======================================================================
+ END · all output above will be wired into paper text in v10
+======================================================================

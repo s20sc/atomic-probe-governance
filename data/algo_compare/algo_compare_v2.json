@@ -1,0 +1,758 @@
+{
+  "n_events": 48,
+  "thresholds": [
+    0.0,
+    5.0,
+    10.0,
+    15.0,
+    20.0
+  ],
+  "selectors": [
+    "Naive",
+    "Freeze",
+    "AtomicOnly",
+    "FullReval",
+    "Hybrid(margin=10)",
+    "Hybrid(margin=20)",
+    "Hybrid(margin=30)"
+  ],
+  "sweep": {
+    "0.0": {
+      "Naive": {
+        "accept": 48,
+        "reject": 0,
+        "sum_outcome": 1703.333333333333,
+        "oracle_match": 21,
+        "fullreval_calls": 0
+      },
+      "Freeze": {
+        "accept": 0,
+        "reject": 48,
+        "sum_outcome": 1699.9999999999998,
+        "oracle_match": 27,
+        "fullreval_calls": 0
+      },
+      "AtomicOnly": {
+        "accept": 28,
+        "reject": 20,
+        "sum_outcome": 1873.3333333333333,
+        "oracle_match": 29,
+        "fullreval_calls": 0
+      },
+      "FullReval": {
+        "accept": 24,
+        "reject": 24,
+        "sum_outcome": 2080.0,
+        "oracle_match": 45,
+        "fullreval_calls": 48
+      },
+      "Hybrid(margin=10)": {
+        "accept": 26,
+        "reject": 22,
+        "sum_outcome": 1960.0,
+        "oracle_match": 37,
+        "fullreval_calls": 22
+      },
+      "Hybrid(margin=20)": {
+        "accept": 25,
+        "reject": 23,
+        "sum_outcome": 2033.3333333333337,
+        "oracle_match": 42,
+        "fullreval_calls": 34
+      },
+      "Hybrid(margin=30)": {
+        "accept": 24,
+        "reject": 24,
+        "sum_outcome": 2080.0,
+        "oracle_match": 45,
+        "fullreval_calls": 42
+      }
+    },
+    "5.0": {
+      "Naive": {
+        "accept": 48,
+        "reject": 0,
+        "sum_outcome": 1703.333333333333,
+        "oracle_match": 21,
+        "fullreval_calls": 0
+      },
+      "Freeze": {
+        "accept": 0,
+        "reject": 48,
+        "sum_outcome": 1699.9999999999998,
+        "oracle_match": 27,
+        "fullreval_calls": 0
+      },
+      "AtomicOnly": {
+        "accept": 32,
+        "reject": 16,
+        "sum_outcome": 1890.0,
+        "oracle_match": 31,
+        "fullreval_calls": 0
+      },
+      "FullReval": {
+        "accept": 27,
+        "reject": 21,
+        "sum_outcome": 2070.0,
+        "oracle_match": 42,
+        "fullreval_calls": 48
+      },
+      "Hybrid(margin=10)": {
+        "accept": 27,
+        "reject": 21,
+        "sum_outcome": 1956.6666666666667,
+        "oracle_match": 36,
+        "fullreval_calls": 22
+      },
+      "Hybrid(margin=20)": {
+        "accept": 28,
+        "reject": 20,
+        "sum_outcome": 2023.3333333333335,
+        "oracle_match": 39,
+        "fullreval_calls": 34
+      },
+      "Hybrid(margin=30)": {
+        "accept": 27,
+        "reject": 21,
+        "sum_outcome": 2070.0,
+        "oracle_match": 42,
+        "fullreval_calls": 42
+      }
+    },
+    "10.0": {
+      "Naive": {
+        "accept": 48,
+        "reject": 0,
+        "sum_outcome": 1703.333333333333,
+        "oracle_match": 21,
+        "fullreval_calls": 0
+      },
+      "Freeze": {
+        "accept": 0,
+        "reject": 48,
+        "sum_outcome": 1699.9999999999998,
+        "oracle_match": 27,
+        "fullreval_calls": 0
+      },
+      "AtomicOnly": {
+        "accept": 37,
+        "reject": 11,
+        "sum_outcome": 1836.666666666667,
+        "oracle_match": 26,
+        "fullreval_calls": 0
+      },
+      "FullReval": {
+        "accept": 33,
+        "reject": 15,
+        "sum_outcome": 2020.0,
+        "oracle_match": 36,
+        "fullreval_calls": 48
+      },
+      "Hybrid(margin=10)": {
+        "accept": 32,
+        "reject": 16,
+        "sum_outcome": 1910.0000000000002,
+        "oracle_match": 31,
+        "fullreval_calls": 22
+      },
+      "Hybrid(margin=20)": {
+        "accept": 33,
+        "reject": 15,
+        "sum_outcome": 1983.3333333333335,
+        "oracle_match": 34,
+        "fullreval_calls": 34
+      },
+      "Hybrid(margin=30)": {
+        "accept": 33,
+        "reject": 15,
+        "sum_outcome": 2020.0,
+        "oracle_match": 36,
+        "fullreval_calls": 42
+      }
+    },
+    "15.0": {
+      "Naive": {
+        "accept": 48,
+        "reject": 0,
+        "sum_outcome": 1703.333333333333,
+        "oracle_match": 21,
+        "fullreval_calls": 0
+      },
+      "Freeze": {
+        "accept": 0,
+        "reject": 48,
+        "sum_outcome": 1699.9999999999998,
+        "oracle_match": 27,
+        "fullreval_calls": 0
+      },
+      "AtomicOnly": {
+        "accept": 40,
+        "reject": 8,
+        "sum_outcome": 1856.666666666667,
+        "oracle_match": 27,
+        "fullreval_calls": 0
+      },
+      "FullReval": {
+        "accept": 39,
+        "reject": 9,
+        "sum_outcome": 1943.3333333333333,
+        "oracle_match": 30,
+        "fullreval_calls": 48
+      },
+      "Hybrid(margin=10)": {
+        "accept": 38,
+        "reject": 10,
+        "sum_outcome": 1890.0000000000002,
+        "oracle_match": 29,
+        "fullreval_calls": 22
+      },
+      "Hybrid(margin=20)": {
+        "accept": 38,
+        "reject": 10,
+        "sum_outcome": 1916.6666666666667,
+        "oracle_match": 29,
+        "fullreval_calls": 34
+      },
+      "Hybrid(margin=30)": {
+        "accept": 39,
+        "reject": 9,
+        "sum_outcome": 1943.3333333333333,
+        "oracle_match": 30,
+        "fullreval_calls": 42
+      }
+    },
+    "20.0": {
+      "Naive": {
+        "accept": 48,
+        "reject": 0,
+        "sum_outcome": 1703.333333333333,
+        "oracle_match": 21,
+        "fullreval_calls": 0
+      },
+      "Freeze": {
+        "accept": 0,
+        "reject": 48,
+        "sum_outcome": 1699.9999999999998,
+        "oracle_match": 27,
+        "fullreval_calls": 0
+      },
+      "AtomicOnly": {
+        "accept": 42,
+        "reject": 6,
+        "sum_outcome": 1843.3333333333335,
+        "oracle_match": 25,
+        "fullreval_calls": 0
+      },
+      "FullReval": {
+        "accept": 42,
+        "reject": 6,
+        "sum_outcome": 1890.0,
+        "oracle_match": 27,
+        "fullreval_calls": 48
+      },
+      "Hybrid(margin=10)": {
+        "accept": 42,
+        "reject": 6,
+        "sum_outcome": 1843.3333333333335,
+        "oracle_match": 25,
+        "fullreval_calls": 22
+      },
+      "Hybrid(margin=20)": {
+        "accept": 41,
+        "reject": 7,
+        "sum_outcome": 1873.3333333333335,
+        "oracle_match": 26,
+        "fullreval_calls": 34
+      },
+      "Hybrid(margin=30)": {
+        "accept": 41,
+        "reject": 7,
+        "sum_outcome": 1910.0,
+        "oracle_match": 28,
+        "fullreval_calls": 42
+      }
+    }
+  },
+  "events": [
+    {
+      "phase": "reach",
+      "baseline_seed": 42,
+      "new_seed": 7,
+      "q_old": 6.666666666666667,
+      "q_new": 0.0,
+      "comp_old": 13.333333333333334,
+      "comp_new": 0.0,
+      "oracle_accept": false
+    },
+    {
+      "phase": "reach",
+      "baseline_seed": 42,
+      "new_seed": 123,
+      "q_old": 6.666666666666667,
+      "q_new": 26.666666666666668,
+      "comp_old": 13.333333333333334,
+      "comp_new": 33.33333333333333,
+      "oracle_accept": true
+    },
+    {
+      "phase": "reach",
+      "baseline_seed": 42,
+      "new_seed": 2024,
+      "q_old": 6.666666666666667,
+      "q_new": 86.66666666666667,
+      "comp_old": 13.333333333333334,
+      "comp_new": 60.0,
+      "oracle_accept": true
+    },
+    {
+      "phase": "reach",
+      "baseline_seed": 7,
+      "new_seed": 42,
+      "q_old": 0.0,
+      "q_new": 6.666666666666667,
+      "comp_old": 16.666666666666664,
+      "comp_new": 40.0,
+      "oracle_accept": true
+    },
+    {
+      "phase": "reach",
+      "baseline_seed": 7,
+      "new_seed": 123,
+      "q_old": 0.0,
+      "q_new": 26.666666666666668,
+      "comp_old": 16.666666666666664,
+      "comp_new": 46.666666666666664,
+      "oracle_accept": true
+    },
+    {
+      "phase": "reach",
+      "baseline_seed": 7,
+      "new_seed": 2024,
+      "q_old": 0.0,
+      "q_new": 86.66666666666667,
+      "comp_old": 16.666666666666664,
+      "comp_new": 76.66666666666667,
+      "oracle_accept": true
+    },
+    {
+      "phase": "reach",
+      "baseline_seed": 123,
+      "new_seed": 42,
+      "q_old": 26.666666666666668,
+      "q_new": 6.666666666666667,
+      "comp_old": 33.33333333333333,
+      "comp_new": 3.3333333333333335,
+      "oracle_accept": false
+    },
+    {
+      "phase": "reach",
+      "baseline_seed": 123,
+      "new_seed": 7,
+      "q_old": 26.666666666666668,
+      "q_new": 0.0,
+      "comp_old": 33.33333333333333,
+      "comp_new": 0.0,
+      "oracle_accept": false
+    },
+    {
+      "phase": "reach",
+      "baseline_seed": 123,
+      "new_seed": 2024,
+      "q_old": 26.666666666666668,
+      "q_new": 86.66666666666667,
+      "comp_old": 33.33333333333333,
+      "comp_new": 70.0,
+      "oracle_accept": true
+    },
+    {
+      "phase": "reach",
+      "baseline_seed": 2024,
+      "new_seed": 42,
+      "q_old": 86.66666666666667,
+      "q_new": 6.666666666666667,
+      "comp_old": 50.0,
+      "comp_new": 16.666666666666664,
+      "oracle_accept": false
+    },
+    {
+      "phase": "reach",
+      "baseline_seed": 2024,
+      "new_seed": 7,
+      "q_old": 86.66666666666667,
+      "q_new": 0.0,
+      "comp_old": 50.0,
+      "comp_new": 13.333333333333334,
+      "oracle_accept": false
+    },
+    {
+      "phase": "reach",
+      "baseline_seed": 2024,
+      "new_seed": 123,
+      "q_old": 86.66666666666667,
+      "q_new": 26.666666666666668,
+      "comp_old": 50.0,
+      "comp_new": 30.0,
+      "oracle_accept": false
+    },
+    {
+      "phase": "grasp",
+      "baseline_seed": 42,
+      "new_seed": 7,
+      "q_old": 3.3333333333333335,
+      "q_new": 10.0,
+      "comp_old": 20.0,
+      "comp_new": 10.0,
+      "oracle_accept": false
+    },
+    {
+      "phase": "grasp",
+      "baseline_seed": 42,
+      "new_seed": 123,
+      "q_old": 3.3333333333333335,
+      "q_new": 0.0,
+      "comp_old": 20.0,
+      "comp_new": 13.333333333333334,
+      "oracle_accept": false
+    },
+    {
+      "phase": "grasp",
+      "baseline_seed": 42,
+      "new_seed": 2024,
+      "q_old": 3.3333333333333335,
+      "q_new": 0.0,
+      "comp_old": 20.0,
+      "comp_new": 33.33333333333333,
+      "oracle_accept": true
+    },
+    {
+      "phase": "grasp",
+      "baseline_seed": 7,
+      "new_seed": 42,
+      "q_old": 10.0,
+      "q_new": 3.3333333333333335,
+      "comp_old": 33.33333333333333,
+      "comp_new": 20.0,
+      "oracle_accept": false
+    },
+    {
+      "phase": "grasp",
+      "baseline_seed": 7,
+      "new_seed": 123,
+      "q_old": 10.0,
+      "q_new": 0.0,
+      "comp_old": 33.33333333333333,
+      "comp_new": 23.333333333333332,
+      "oracle_accept": false
+    },
+    {
+      "phase": "grasp",
+      "baseline_seed": 7,
+      "new_seed": 2024,
+      "q_old": 10.0,
+      "q_new": 0.0,
+      "comp_old": 33.33333333333333,
+      "comp_new": 20.0,
+      "oracle_accept": false
+    },
+    {
+      "phase": "grasp",
+      "baseline_seed": 123,
+      "new_seed": 42,
+      "q_old": 0.0,
+      "q_new": 3.3333333333333335,
+      "comp_old": 36.666666666666664,
+      "comp_new": 20.0,
+      "oracle_accept": false
+    },
+    {
+      "phase": "grasp",
+      "baseline_seed": 123,
+      "new_seed": 7,
+      "q_old": 0.0,
+      "q_new": 10.0,
+      "comp_old": 36.666666666666664,
+      "comp_new": 30.0,
+      "oracle_accept": false
+    },
+    {
+      "phase": "grasp",
+      "baseline_seed": 123,
+      "new_seed": 2024,
+      "q_old": 0.0,
+      "q_new": 0.0,
+      "comp_old": 36.666666666666664,
+      "comp_new": 30.0,
+      "oracle_accept": false
+    },
+    {
+      "phase": "grasp",
+      "baseline_seed": 2024,
+      "new_seed": 42,
+      "q_old": 0.0,
+      "q_new": 3.3333333333333335,
+      "comp_old": 63.33333333333333,
+      "comp_new": 66.66666666666666,
+      "oracle_accept": true
+    },
+    {
+      "phase": "grasp",
+      "baseline_seed": 2024,
+      "new_seed": 7,
+      "q_old": 0.0,
+      "q_new": 10.0,
+      "comp_old": 63.33333333333333,
+      "comp_new": 80.0,
+      "oracle_accept": true
+    },
+    {
+      "phase": "grasp",
+      "baseline_seed": 2024,
+      "new_seed": 123,
+      "q_old": 0.0,
+      "q_new": 0.0,
+      "comp_old": 63.33333333333333,
+      "comp_new": 83.33333333333334,
+      "oracle_accept": true
+    },
+    {
+      "phase": "lift",
+      "baseline_seed": 42,
+      "new_seed": 7,
+      "q_old": 13.333333333333334,
+      "q_new": 0.0,
+      "comp_old": 13.333333333333334,
+      "comp_new": 13.333333333333334,
+      "oracle_accept": false
+    },
+    {
+      "phase": "lift",
+      "baseline_seed": 42,
+      "new_seed": 123,
+      "q_old": 13.333333333333334,
+      "q_new": 0.0,
+      "comp_old": 13.333333333333334,
+      "comp_new": 20.0,
+      "oracle_accept": true
+    },
+    {
+      "phase": "lift",
+      "baseline_seed": 42,
+      "new_seed": 2024,
+      "q_old": 13.333333333333334,
+      "q_new": 0.0,
+      "comp_old": 13.333333333333334,
+      "comp_new": 26.666666666666668,
+      "oracle_accept": true
+    },
+    {
+      "phase": "lift",
+      "baseline_seed": 7,
+      "new_seed": 42,
+      "q_old": 0.0,
+      "q_new": 13.333333333333334,
+      "comp_old": 26.666666666666668,
+      "comp_new": 23.333333333333332,
+      "oracle_accept": false
+    },
+    {
+      "phase": "lift",
+      "baseline_seed": 7,
+      "new_seed": 123,
+      "q_old": 0.0,
+      "q_new": 0.0,
+      "comp_old": 26.666666666666668,
+      "comp_new": 13.333333333333334,
+      "oracle_accept": false
+    },
+    {
+      "phase": "lift",
+      "baseline_seed": 7,
+      "new_seed": 2024,
+      "q_old": 0.0,
+      "q_new": 0.0,
+      "comp_old": 26.666666666666668,
+      "comp_new": 26.666666666666668,
+      "oracle_accept": false
+    },
+    {
+      "phase": "lift",
+      "baseline_seed": 123,
+      "new_seed": 42,
+      "q_old": 0.0,
+      "q_new": 13.333333333333334,
+      "comp_old": 46.666666666666664,
+      "comp_new": 16.666666666666664,
+      "oracle_accept": false
+    },
+    {
+      "phase": "lift",
+      "baseline_seed": 123,
+      "new_seed": 7,
+      "q_old": 0.0,
+      "q_new": 0.0,
+      "comp_old": 46.666666666666664,
+      "comp_new": 30.0,
+      "oracle_accept": false
+    },
+    {
+      "phase": "lift",
+      "baseline_seed": 123,
+      "new_seed": 2024,
+      "q_old": 0.0,
+      "q_new": 0.0,
+      "comp_old": 46.666666666666664,
+      "comp_new": 46.666666666666664,
+      "oracle_accept": false
+    },
+    {
+      "phase": "lift",
+      "baseline_seed": 2024,
+      "new_seed": 42,
+      "q_old": 0.0,
+      "q_new": 13.333333333333334,
+      "comp_old": 70.0,
+      "comp_new": 76.66666666666667,
+      "oracle_accept": true
+    },
+    {
+      "phase": "lift",
+      "baseline_seed": 2024,
+      "new_seed": 7,
+      "q_old": 0.0,
+      "q_new": 0.0,
+      "comp_old": 70.0,
+      "comp_new": 83.33333333333334,
+      "oracle_accept": true
+    },
+    {
+      "phase": "lift",
+      "baseline_seed": 2024,
+      "new_seed": 123,
+      "q_old": 0.0,
+      "q_new": 0.0,
+      "comp_old": 70.0,
+      "comp_new": 76.66666666666667,
+      "oracle_accept": true
+    },
+    {
+      "phase": "place",
+      "baseline_seed": 42,
+      "new_seed": 7,
+      "q_old": 23.333333333333332,
+      "q_new": 20.0,
+      "comp_old": 20.0,
+      "comp_new": 23.333333333333332,
+      "oracle_accept": true
+    },
+    {
+      "phase": "place",
+      "baseline_seed": 42,
+      "new_seed": 123,
+      "q_old": 23.333333333333332,
+      "q_new": 0.0,
+      "comp_old": 20.0,
+      "comp_new": 33.33333333333333,
+      "oracle_accept": true
+    },
+    {
+      "phase": "place",
+      "baseline_seed": 42,
+      "new_seed": 2024,
+      "q_old": 23.333333333333332,
+      "q_new": 16.666666666666664,
+      "comp_old": 20.0,
+      "comp_new": 16.666666666666664,
+      "oracle_accept": false
+    },
+    {
+      "phase": "place",
+      "baseline_seed": 7,
+      "new_seed": 42,
+      "q_old": 20.0,
+      "q_new": 23.333333333333332,
+      "comp_old": 23.333333333333332,
+      "comp_new": 30.0,
+      "oracle_accept": true
+    },
+    {
+      "phase": "place",
+      "baseline_seed": 7,
+      "new_seed": 123,
+      "q_old": 20.0,
+      "q_new": 0.0,
+      "comp_old": 23.333333333333332,
+      "comp_new": 13.333333333333334,
+      "oracle_accept": false
+    },
+    {
+      "phase": "place",
+      "baseline_seed": 7,
+      "new_seed": 2024,
+      "q_old": 20.0,
+      "q_new": 16.666666666666664,
+      "comp_old": 23.333333333333332,
+      "comp_new": 30.0,
+      "oracle_accept": true
+    },
+    {
+      "phase": "place",
+      "baseline_seed": 123,
+      "new_seed": 42,
+      "q_old": 0.0,
+      "q_new": 23.333333333333332,
+      "comp_old": 43.333333333333336,
+      "comp_new": 33.33333333333333,
+      "oracle_accept": false
+    },
+    {
+      "phase": "place",
+      "baseline_seed": 123,
+      "new_seed": 7,
+      "q_old": 0.0,
+      "q_new": 20.0,
+      "comp_old": 43.333333333333336,
+      "comp_new": 20.0,
+      "oracle_accept": false
+    },
+    {
+      "phase": "place",
+      "baseline_seed": 123,
+      "new_seed": 2024,
+      "q_old": 0.0,
+      "q_new": 16.666666666666664,
+      "comp_old": 43.333333333333336,
+      "comp_new": 30.0,
+      "oracle_accept": false
+    },
+    {
+      "phase": "place",
+      "baseline_seed": 2024,
+      "new_seed": 42,
+      "q_old": 16.666666666666664,
+      "q_new": 23.333333333333332,
+      "comp_old": 56.666666666666664,
+      "comp_new": 66.66666666666666,
+      "oracle_accept": true
+    },
+    {
+      "phase": "place",
+      "baseline_seed": 2024,
+      "new_seed": 7,
+      "q_old": 16.666666666666664,
+      "q_new": 20.0,
+      "comp_old": 56.666666666666664,
+      "comp_new": 80.0,
+      "oracle_accept": true
+    },
+    {
+      "phase": "place",
+      "baseline_seed": 2024,
+      "new_seed": 123,
+      "q_old": 16.666666666666664,
+      "q_new": 0.0,
+      "comp_old": 56.666666666666664,
+      "comp_new": 53.333333333333336,
+      "oracle_accept": false
+    }
+  ]
+}

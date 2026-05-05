@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Atomic-Probe Governance for Skill Updates in Compositional Robot Policies"
+message: "If you use this software or data, please cite the accompanying paper."
+type: software
+authors:
+  - given-names: Xue
+    family-names: Qin
+  - given-names: Simin
+    family-names: Luan
+  - given-names: John
+    family-names: See
+  - given-names: Zeyd
+    family-names: Boukhers
+  - given-names: Cong
+    family-names: Yang
+  - given-names: Zhijun
+    family-names: Li
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2604.26689
+repository-code: "https://github.com/s20sc/atomic-probe-governance"
+url: "https://arxiv.org/abs/2604.26689"
+version: 1.0-arxiv
+date-released: "2026-05-05"
+license: Apache-2.0

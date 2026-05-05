@@ -1,0 +1,315 @@
+{
+  "iterations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "metrics": [
+    {
+      "success_rate": 0.0,
+      "avg_reward": 1.3968281502643036,
+      "avg_time": 500.0,
+      "reward_variance": 2.155631425867407,
+      "policy_drift": 0.0,
+      "iteration": 1,
+      "wall_time": 974.4348628520966
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 14.19562943831221,
+      "avg_time": 500.0,
+      "reward_variance": 144.39102230913556,
+      "policy_drift": 0.0,
+      "iteration": 2,
+      "wall_time": 1085.6224389076233
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.644323925550234,
+      "avg_time": 500.0,
+      "reward_variance": 15.916623698539183,
+      "policy_drift": 0.0,
+      "iteration": 3,
+      "wall_time": 1102.9086685180664
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 6.921097170735374,
+      "avg_time": 500.0,
+      "reward_variance": 59.80189756838528,
+      "policy_drift": 0.0,
+      "iteration": 4,
+      "wall_time": 1113.095654964447
+    },
+    {
+      "success_rate": 3.3333333333333335,
+      "avg_reward": 3.83830977478391,
+      "avg_time": 500.0,
+      "reward_variance": 9.905828993301158,
+      "policy_drift": 0.0,
+      "iteration": 5,
+      "wall_time": 1118.0250341892242
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.116426120838823,
+      "avg_time": 500.0,
+      "reward_variance": 11.98469242664168,
+      "policy_drift": 0.0,
+      "iteration": 6,
+      "wall_time": 1120.8487074375153
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 4.938241461252023,
+      "avg_time": 500.0,
+      "reward_variance": 5.820102026838663,
+      "policy_drift": 0.0,
+      "iteration": 7,
+      "wall_time": 1142.9794466495514
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.514948223983067,
+      "avg_time": 500.0,
+      "reward_variance": 23.6148361712293,
+      "policy_drift": 0.0,
+      "iteration": 8,
+      "wall_time": 1150.4334239959717
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.199021572119493,
+      "avg_time": 500.0,
+      "reward_variance": 7.30820924799849,
+      "policy_drift": 0.0,
+      "iteration": 9,
+      "wall_time": 1131.5057713985443
+    },
+    {
+      "success_rate": 3.3333333333333335,
+      "avg_reward": 3.6851710174520966,
+      "avg_time": 500.0,
+      "reward_variance": 10.32242098913405,
+      "policy_drift": 0.0,
+      "iteration": 10,
+      "wall_time": 1172.5480692386627
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 6.8930384098125534,
+      "avg_time": 500.0,
+      "reward_variance": 246.07389887184323,
+      "policy_drift": 0.0,
+      "iteration": 11,
+      "wall_time": 1173.8201649188995
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.437724557537958,
+      "avg_time": 500.0,
+      "reward_variance": 52.12454776653371,
+      "policy_drift": 0.0,
+      "iteration": 12,
+      "wall_time": 1164.0278284549713
+    },
+    {
+      "success_rate": 3.3333333333333335,
+      "avg_reward": 5.5354136056043215,
+      "avg_time": 500.0,
+      "reward_variance": 7.59856836911662,
+      "policy_drift": 0.0,
+      "iteration": 13,
+      "wall_time": 1151.0787513256073
+    },
+    {
+      "success_rate": 3.3333333333333335,
+      "avg_reward": 5.414713402696902,
+      "avg_time": 500.0,
+      "reward_variance": 24.811824233997655,
+      "policy_drift": 0.0,
+      "iteration": 14,
+      "wall_time": 1177.6490743160248
+    },
+    {
+      "success_rate": 3.3333333333333335,
+      "avg_reward": 6.213163131345741,
+      "avg_time": 500.0,
+      "reward_variance": 21.097820678847736,
+      "policy_drift": 0.0,
+      "iteration": 15,
+      "wall_time": 1122.4260954856873
+    },
+    {
+      "success_rate": 3.3333333333333335,
+      "avg_reward": 4.7404902545938885,
+      "avg_time": 500.0,
+      "reward_variance": 4.580665495675109,
+      "policy_drift": 0.0,
+      "iteration": 16,
+      "wall_time": 1113.3443892002106
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.819693326370209,
+      "avg_time": 500.0,
+      "reward_variance": 19.36896764756075,
+      "policy_drift": 0.0,
+      "iteration": 17,
+      "wall_time": 1124.0668723583221
+    },
+    {
+      "success_rate": 3.3333333333333335,
+      "avg_reward": 5.677685500060699,
+      "avg_time": 500.0,
+      "reward_variance": 13.420968464012281,
+      "policy_drift": 0.0,
+      "iteration": 18,
+      "wall_time": 1126.5495505332947
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 4.937602145756062,
+      "avg_time": 500.0,
+      "reward_variance": 13.145120729385804,
+      "policy_drift": 0.0,
+      "iteration": 19,
+      "wall_time": 1120.9343874454498
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.108331536603139,
+      "avg_time": 500.0,
+      "reward_variance": 3.8558047489095184,
+      "policy_drift": 0.0,
+      "iteration": 20,
+      "wall_time": 1134.4891304969788
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 1.7261755263726004,
+      "avg_time": 500.0,
+      "reward_variance": 2.8622497473583706,
+      "policy_drift": 0.0,
+      "iteration": 21,
+      "wall_time": 1131.075278520584
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.370135603658554,
+      "avg_time": 500.0,
+      "reward_variance": 8.224122876642914,
+      "policy_drift": 0.0,
+      "iteration": 22,
+      "wall_time": 1120.2133650779724
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.458762366303674,
+      "avg_time": 500.0,
+      "reward_variance": 6.0324912035116025,
+      "policy_drift": 0.0,
+      "iteration": 23,
+      "wall_time": 1123.0151183605194
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.673994537631496,
+      "avg_time": 500.0,
+      "reward_variance": 12.844428539360946,
+      "policy_drift": 0.0,
+      "iteration": 24,
+      "wall_time": 1124.8167307376862
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.719978181479549,
+      "avg_time": 500.0,
+      "reward_variance": 14.026625841784213,
+      "policy_drift": 0.0,
+      "iteration": 25,
+      "wall_time": 1123.1855952739716
+    },
+    {
+      "success_rate": 3.3333333333333335,
+      "avg_reward": 6.59670303818838,
+      "avg_time": 500.0,
+      "reward_variance": 56.310167686967816,
+      "policy_drift": 0.0,
+      "iteration": 26,
+      "wall_time": 1123.5543870925903
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.177823057723569,
+      "avg_time": 500.0,
+      "reward_variance": 12.266007546296521,
+      "policy_drift": 0.0,
+      "iteration": 27,
+      "wall_time": 1130.8446657657623
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.961751052261225,
+      "avg_time": 500.0,
+      "reward_variance": 13.238943026085312,
+      "policy_drift": 0.0,
+      "iteration": 28,
+      "wall_time": 1128.3440692424774
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 5.398496077504472,
+      "avg_time": 500.0,
+      "reward_variance": 6.868200770177034,
+      "policy_drift": 0.0,
+      "iteration": 29,
+      "wall_time": 1142.0498604774475
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 4.8232601504801975,
+      "avg_time": 500.0,
+      "reward_variance": 6.357163942998719,
+      "policy_drift": 0.0,
+      "iteration": 30,
+      "wall_time": 1132.9770195484161
+    }
+  ],
+  "_meta": {
+    "seed": 42,
+    "task": "T3_Stack",
+    "iterations": 30,
+    "eval_episodes": 30,
+    "wall_seconds": 33803.42927980423,
+    "finished_at": "2026-05-04T21:42:15",
+    "ckpt_label": "t3_multiseed/seed_42/ours"
+  }
+}

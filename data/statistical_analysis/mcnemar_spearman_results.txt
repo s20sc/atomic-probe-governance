@@ -1,0 +1,46 @@
+# McNemar Test: AtomicOnly vs FullReval on T6 (n=48 paired skill-update events)
+
+| τ (pp) | Atomic % | FullReval % | Δ (pp) | both ✓ | Atomic-only ✓ | FullReval-only ✓ | neither | exact-binomial p |
+|--------|----------|-------------|--------|--------|---------------|------------------|---------|------------------|
+|  0.0   |   60.4%  |      93.8%   | +33.3  |   28   |           1   |             17   |    2    |         0.0001   |
+|  5.0   |   64.6%  |      87.5%   | +22.9  |   28   |           3   |             14   |    3    |         0.0127   |
+| 10.0   |   54.2%  |      75.0%   | +20.8  |   23   |           3   |             13   |    9    |         0.0213   |
+
+
+# Spearman ρ: per-ECM mean pairwise L2 distance vs atomic SR
+
+| Task | n  |   ρ    | 95% CI            | Note |
+|------|----|--------|-------------------|------|
+| T6   | 16 | +0.52  | [+0.03, +0.82] | moderate positive (CI just excludes 0) |
+| T3   | 16 | +0.00  | [+0.00, +0.00] | atomic SR degenerate (no variance) |
+| T4   | 16 | +0.00  | [+0.00, +0.00] | atomic SR degenerate (no variance) |
+| **pool** | **48** | **+0.61** | **[+0.41, +0.75]** | dominated by inter-task scale variance — not interpretable as ECM-level signal |
+
+
+# T6 per-phase ranking: does the dominant ECM stand out by distance?
+
+Within each phase, rank the 4 ECMs by mean pairwise L2 distance (rank 1 = most distant).
+
+| phase | seed | atomic SR | mean L2 dist | rank by dist (1=largest) | dominant? |
+|-------|------|-----------|--------------|--------------------------|-----------|
+| reach | 42   |   6.7%   |      3.269   |   4                     |  |
+| reach | 7    |   0.0%   |      3.543   |   1                     |  |
+| reach | 123  |  26.7%   |      3.450   |   2                     |  |
+| reach | 2024 |  86.7%   |      3.349   |   3                     | ← DOMINANT (rank 3/4 NOT 1) |
+| grasp | 42   |   3.3%   |      3.097   |   1                     |  |
+| grasp | 7    |  10.0%   |      3.003   |   2                     |  |
+| grasp | 123  |   0.0%   |      2.929   |   4                     |  |
+| grasp | 2024 |   0.0%   |      2.981   |   3                     |  |
+| lift  | 42   |  13.3%   |      3.166   |   2                     |  |
+| lift  | 7    |   0.0%   |      3.109   |   3                     |  |
+| lift  | 123  |   0.0%   |      2.741   |   4                     |  |
+| lift  | 2024 |   0.0%   |      3.287   |   1                     |  |
+| place | 42   |  23.3%   |      3.651   |   1                     |  |
+| place | 7    |  20.0%   |      3.543   |   3                     |  |
+| place | 123  |   0.0%   |      3.510   |   4                     |  |
+| place | 2024 |  16.7%   |      3.629   |   2                     |  |
+
+Key observation: on the dominant phase (reach), the dominant ECM seed=2024 (86.7% atomic SR)
+has rank 3/4 by distance. The LOWEST-quality reach ECM seed=7 (0% atomic SR) has rank 1/4.
+→ ranking by mean pairwise distance puts the dominant cell BELOW two of its three siblings.
+Within-reach Spearman ρ(atomic SR, mean dist) = -0.4 (negative).

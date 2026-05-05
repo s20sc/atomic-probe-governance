@@ -1,0 +1,30 @@
+{
+  "task": "T6_TwoArmPegInHole",
+  "phase": "reach",
+  "protocol": "paired cross-seed swap with state-saving (B' run, 2026-05-04)",
+  "n_episodes_per_cell": 30,
+  "episode_seeds": [10000, 10001, 10002, 10003, 10004, 10005, 10006, 10007,
+                    10008, 10009, 10010, 10011, 10012, 10013, 10014, 10015,
+                    10016, 10017, 10018, 10019, 10020, 10021, 10022, 10023,
+                    10024, 10025, 10026, 10027, 10028, 10029],
+  "matrix_pct": {
+    "primary=42":   {"swap=42":  13.3, "swap=7":   20.0, "swap=123": 30.0, "swap=2024": 73.3},
+    "primary=7":    {"swap=42":  23.3, "swap=7":   33.3, "swap=123": 46.7, "swap=2024": 73.3},
+    "primary=123":  {"swap=42":   0.0, "swap=7":    6.7, "swap=123": 53.3, "swap=2024": 96.7},
+    "primary=2024": {"swap=42":  16.7, "swap=7":    3.3, "swap=123": 43.3, "swap=2024": 86.7}
+  },
+  "off_diagonal_column_means_pct": {
+    "swap=42":  13.4,
+    "swap=7":   10.0,
+    "swap=123": 40.0,
+    "swap=2024": 73.3
+  },
+  "comparison_to_v11_paper_table_3": {
+    "v11_swap_2024_col_mean_pct": 64.2,
+    "b_prime_swap_2024_col_mean_pct": 73.3,
+    "delta_pp": 9.1,
+    "interpretation": "Re-run reproduces dominant pattern with even stronger swap=2024 column mean. Different episode seed pool; same N=30; same task; same phase."
+  },
+  "source_files_npz": "states_t6_reach_full/reach_primary{P}_swap{S}_full.npz (16 files, ~1.6 MB each)",
+  "linux_delivery_doc": "../audit/2026-05-04-bprime-delivery.md"
+}

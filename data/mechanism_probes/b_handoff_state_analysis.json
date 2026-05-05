@@ -1,0 +1,55 @@
+{
+  "analysis": "B handoff state distribution",
+  "task": "T6_TwoArmPegInHole",
+  "phase": "reach",
+  "dominant_seed": 2024,
+  "seeds": [
+    42,
+    7,
+    123,
+    2024
+  ],
+  "n_per_group": 120,
+  "obs_dim": 218,
+  "per_group": {
+    "42": {
+      "sum_diag_var": 3442.998291015625,
+      "mean_diag_var": 15.793570518493652,
+      "frobenius_cov": 1249.5205806250242,
+      "shift_L2_to_pooled_centroid": 7.0994977951049805
+    },
+    "7": {
+      "sum_diag_var": 3180.931884765625,
+      "mean_diag_var": 14.5914306640625,
+      "frobenius_cov": 1203.6985868887014,
+      "shift_L2_to_pooled_centroid": 5.810072898864746
+    },
+    "123": {
+      "sum_diag_var": 357.2485046386719,
+      "mean_diag_var": 1.6387546062469482,
+      "frobenius_cov": 195.90396364242747,
+      "shift_L2_to_pooled_centroid": 5.549008846282959
+    },
+    "2024": {
+      "sum_diag_var": 1635.539794921875,
+      "mean_diag_var": 7.502476215362549,
+      "frobenius_cov": 797.3999660579132,
+      "shift_L2_to_pooled_centroid": 4.699193000793457
+    }
+  },
+  "pairwise_w2_diag_gaussian": {
+    "42_vs_7": 17.938848252084863,
+    "42_vs_123": 43.45695988407061,
+    "42_vs_2024": 29.256365222047993,
+    "7_vs_123": 42.845163356804804,
+    "7_vs_2024": 26.882362102536934,
+    "123_vs_2024": 28.24795700382838
+  },
+  "summary": {
+    "dom_vs_sibling_w2_mean": 28.12889477613777,
+    "sibling_vs_sibling_w2_mean": 34.74699049765343,
+    "dominant_shift_pct_vs_siblings": -23.625872881292228,
+    "dominant_width_pct_vs_siblings": -29.716461798532727,
+    "var_ratio_pct_dims_dom_wider": 4.587155963302752
+  }
+}
